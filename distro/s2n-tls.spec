@@ -49,7 +49,7 @@ security as a priority.
 
 %files devel
 %{_includedir}/s2n.h
-%{_libdir}/s2n/cmake/modules/FindLibCrypto.cmake
+%{_libdir}/s2n/cmake/modules/Findcrypto.cmake
 %{_libdir}/s2n/cmake/s2n-config.cmake
 %{_libdir}/s2n/cmake/shared/s2n-targets-noconfig.cmake
 %{_libdir}/s2n/cmake/shared/s2n-targets.cmake
