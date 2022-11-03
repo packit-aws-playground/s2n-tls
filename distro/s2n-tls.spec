@@ -49,6 +49,8 @@ security as a priority.
 
 %files devel
 %{_includedir}/s2n.h
+%{_includedir}/s2n/unstable/npn.h
+%{_includedir}/s2n/unstable/renegotiate.h
 %{_libdir}/s2n/cmake/modules/Findcrypto.cmake
 %{_libdir}/s2n/cmake/s2n-config.cmake
 %{_libdir}/s2n/cmake/shared/s2n-targets-noconfig.cmake
@@ -58,6 +60,8 @@ security as a priority.
 %files libs
 %license LICENSE
 %{_libdir}/libs2n.so
+%{_libdir}/libs2n.so.1
+%{_libdir}/libs2n.so.1.0.0
 
 %files
 %license LICENSE
